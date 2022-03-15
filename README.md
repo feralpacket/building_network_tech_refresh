@@ -101,11 +101,11 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
       - MDF locations
       - IDF locations
       - Pick modules
-	  - Any special vendor equipment
-	    - Conveyor systems
-		- Cranes
-		- Network connected idustrial equipment
-		- Large Heidelberg printers
+      - Any special vendor equipment
+	- Conveyor systems
+	- Cranes
+	- Network connected idustrial equipment
+	- Large Heidelberg printers
       - The mahogany desk user suite ( do this after hours )
       - Any special offices or sections or labs
         - Do they have any unique requirements?
@@ -169,16 +169,16 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
     - Review current optics available from Cisco
     - Consider
       - MDF
-	    - Port density ( number of IDFs )
-		- Routing features
-		- Security features
-		- SSD / VM support and features
+	- Port density ( number of IDFs )
+	- Routing features
+	- Security features
+	- SSD / VM support and features
       - IDF
-	    - Port density
-		- PoE usage
-		- Secondary power supplies
-		- Network modules ( for uplinks )
-		- Security features
+	- Port density
+	- PoE usage
+	- Secondary power supplies
+	- Network modules ( for uplinks )
+	- Security features
     - Check switch and IDF cabinet dimensions
       - The C9300-48P barely fits in the IDF cabinets we use in the buildings
 
@@ -284,7 +284,7 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
     - Include
       - MDF
      - Switches
-        - Power supplies
+       - Power supplies
        - Network modules
        - SSD
        - Uplink optics
@@ -301,7 +301,7 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
     - Other
        - Any spares need to be added?
        - Any temporary optics needed?
-         - Old MDF to MDF links
+       - Old MDF to new MDF temporary links
     - Future PoE usage based on new switch and power supply model
       - Add to the progress tracker
       - 2960x usually have 740 watts available for PoE
