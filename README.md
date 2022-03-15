@@ -45,7 +45,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
   - Create new progress tracker
     - Important for large buildings that will have a lot of equipment replaced
     - Helps track projects that are spread over a long period of time
-      - The global supply chain problems have caused 6 month or more lead times for network equipment to be delivered
+      - The global supply chain problems have caused 6 month or more lead times for network equipment 
+        to be delivered
 
 
   - Create a new projects folder
@@ -149,7 +150,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
         - But may not be near the exterior of the building ( it would take a while for rescuers to dig you out )
         - Does not have a water source
       - The restrooms co-located in the same structure as the MDF would be a better location
-      - The buildings tend to be empty during cut-overs, meaning you lose the ability of following the other employees to the tornado shelter
+      - The buildings tend to be empty during cut-overs, meaning you lose the ability of following the 
+        other employees to the tornado shelter
     - Where are the restrooms?
     - Where are the break rooms?
 
@@ -257,7 +259,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
     - Static reservations
       - Check to see if they are active
       - Check computer names against current AD computer objects
-      - Ask management, the Hardware Team, system administrators, help desk if there are any that should be deleted
+      - Ask management, the Hardware Team, system administrators, help desk if there are any that 
+        should be deleted
       - Delete unused reservations if there are no objections
     - Current DHCP pool usage
     - Identify any special, one off DHCP options
@@ -317,7 +320,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
     - Review the BOM with management
     - Whiteboard the tech refresh
     - Seriously, what did you forget?
-    - With the global supply chain problems, if you forgot to add something to the BOM, it might take a year to arrive if you have to order something later.
+    - With the global supply chain problems, if you forgot to add something to the BOM, it might 
+      take a year to arrive if you have to order something later.
 
 
   - Cut the Purchase Order ( PO )
@@ -371,14 +375,16 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
     - Inform the Telecom Team
       - THIS IS REALLY IMPORTANT
       - So they can update Cisco Emergency Responder ( CER ) information during the cut-over process
-      - So 911 and the fire department show up to the proper door and not the opposite side of a 2 million square foot warehouse
+      - So 911 and the fire department show up to the proper door and not the opposite side of a 
+        2 million square foot warehouse
 
 
   - Current switch configuration
     - Make an offline back up of the current configuration of the switches
     - Include
       - ARP table
-        - Information is helpful when some device with a stack IP address stops working after the cut-over and you need to figure out what it is and where it used to be connected
+        - Information is helpful when some device with a stack IP address stops working after 
+	  the cut-over and you need to figure out what it is and where it used to be connected
       - MAC address table
       - CDP neighbors
       - LLDP neighbors
@@ -404,7 +410,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
         - Example, the printer department with their big Heidelberg printers
 		- Example, the automated cranes and robots
     - Fix the problems before the cut-over
-      - It's not uncommon for security, offices, sections, vendors, etc to complain about issues after the cut-over that actually existed before the cut-over
+      - It's not uncommon for security, offices, sections, vendors, etc to complain about issues 
+        after the cut-over that actually existed before the cut-over
     - Create incidents for the Hardware Team to troubleshoot any cabling issues
 
 
@@ -441,7 +448,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
         - .2 and .3 is normally used with HSRP
     - Configure VTP
       - We use VTP version 3
-      - The VTP primary will remain on one of the existing MDF switches until routing and switch is cut-over
+      - The VTP primary will remain on one of the existing MDF switches until routing and switch 
+        is cut-over
     - Configure temporary trunk links between old and new MDFs
     - Configure HSRP
       - If there are 2 MDF switches
@@ -527,7 +535,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
 
 
   - Configure the new switches
-    - Create ticket for inventory management to pull switches, stack cables, NIMs, secondary power supplies
+    - Create ticket for inventory management to pull switches, stack cables, NIMs, secondary 
+      power supplies
     - Start with one switch
       - Install power supply
       - Install secondary power supply
@@ -675,18 +684,22 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
   - IDF switch install
     - Install before cut-over if possible
     - Sometimes this will be done over a weekend
-      - Tt's a long weekend, but there tend to be less network problems then during partial cut-overs spread across a week or two
+      - Tt's a long weekend, but there tend to be less network problems then during partial 
+        cut-overs spread across a week or two
     - Sometimes this will be done a handful of IDFs at a time, spread over a week or two
       - The Hardware Team prefers it
         - No long weekend
-        - Only have to be present the next morning in a smaller part of the building to verify users are not having problems
+        - Only have to be present the next morning in a smaller part of the building to verify 
+	  users are not having problems
           - Instead of having to check an entire 2 million square foot building
-      - Thank you Hardware Team for assuming I'll be happy and willing to work late nights for 2 weeks
+      - Thank you Hardware Team for assuming I'll be happy and willing to work late 
+        nights for 2 weeks
     - Sometimes
       - The new IDF switches can be racked before the cut-over
       - Speeds up the cut-over
     - Sometimes
-      - The IDF cabinet is full, the existing IDF switch will need to be unracked before the news ones are racked
+      - The IDF cabinet is full, the existing IDF switch will need to be unracked before the 
+        news ones are racked
 
 
   - Create IDF after cut-over configuration changes
@@ -700,10 +713,13 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
       - Some equipment may be down for weeks before the office or section complains
 	- For notconnect interfaces
 	  - Using the tech refresh as an opportunity to clean up unusde interfaces
-	  - If the interface is notconnect with the configuration was backed up previously and is notconnect when the after cut-over configuration is created
+	  - If the interface is notconnect with the configuration was backed up previously and is 
+	    notconnect when the after cut-over configuration is created
 	  - Been leaving those interfaces configured with the IDF VLAN
-	  - Not uncommon for 4 interfaces to be configured for time clocks, but only 2 time clocks are being used
-	  - Not uncommon for new devices to be connected to the network, but the interfaces used by the old devices were not cleaned up
+	  - Not uncommon for 4 interfaces to be configured for time clocks, but only 2 time clocks 
+	    are being used
+	  - Not uncommon for new devices to be connected to the network, but the interfaces used 
+	    by the old devices were not cleaned up
 	  - May be a problem with printers, some users only turn them on when needed
     - Check against the list of unique network devices connected to each switch
     - Create the configuration
@@ -796,7 +812,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
         - Check UPS reachability
     - Network monitoring
       - Delete the old network monitoring network object
-        - You can do some low lever SQL commands to change the device type and a few other things that do not get updated on their own
+        - You can do some low lever SQL commands to change the device type and a few other 
+	  things that do not get updated on their own
         - It's easier to delete the old object
       - Add the new network monitoring network object
         - Configure the resources monitored
@@ -834,7 +851,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
 	  - Security cameras may go offline
 	  - Badge readers may stop working
 	  - On some doors, the mag locks may prevent keys from being used
-	- Endpoints typically lose network connectivity for a few seconds as routing and switch converges
+	- Endpoints typically lose network connectivity for a few seconds as routing and 
+	  switch converges
     - What we've been doing
       - Turn off the old MDFs
     - Apply the MDF cut-over configuration changes
@@ -967,7 +985,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
   - Wipe old IDF switches
     - Delete configuration
 	- Delete vlan.dat
-	- Delete any copies of the configuration created by the archive configuration or by other network engineers
+	- Delete any copies of the configuration created by the archive configuration or by 
+	  other network engineers
 	- Delete any core dumps files
 	- Delete any crash files
 	- Delete any copies of show tech
@@ -978,7 +997,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
     - Wipe the MDF switches first
     - Sometimes, it's easier to wipe the MDFs while they are still racked
       - Especially if they use C19 / C20 power cables
-    - Go ahead, use Google to figure out how to delete the vlan.dat on that old Catalyst 4500 or 6500 dinosaur that was on the network for 20 years
+    - Go ahead, use Google to figure out how to delete the vlan.dat on that old Catalyst 4500 
+      or 6500 dinosaur that was on the network for 20 years
     - Ask management if you can have it to turn into a beer fridge
 
 
