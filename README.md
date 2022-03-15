@@ -2,11 +2,10 @@
 Network Tech Refresh Tasks for Buildings
 
 
-Screenshot of an IDF
+<img src="https://github.com/feralpacket/building_network_tech_refresh/blob/main/github_idf_cabinet.jfif" width=50% height=50%>
+
 
 When doing a tech refresh of the network for an entire building, there is quite a bit that needs to be considered, tracked, and completed.  I've created a list of the tasks that I do when doing a tech refresh.  
-
-I'm on the 3rd tech refresh for the year (as of March 2022 ) for a large company.  The largest building was a 2 million square foot warehouse.
 
 We do the tech refreshes for vendor support reasons.  Software upgrades for new features and security fixes are part of it.  Mainly we want to make sure the hardware is supported and will be replaced when it fails or stops working properly.
 
@@ -26,11 +25,20 @@ The task list below is only for the wired, switched network.  The task list for 
 
 If you are crazy enough to use some of the tasks listed below, make the appropriate changes to match your network, environment, management, and employees.  Some of the steps below are actually automated.
 
-Screenshot of the progress tracker I create and use:
+**The progress tracker I create and use:**
 
-Screenshot of the PoE usage review:
+![Progress Tracker](https://github.com/feralpacket/building_network_tech_refresh/blob/main/github_progress_tracker.png)
 
-Screenshot of an MDF cutsheet:
+![Progress Tracker](https://github.com/feralpacket/building_network_tech_refresh/blob/main/github_progress_tracker_2.png)
+
+**The PoE usage review:**
+
+![PoE Usage](https://github.com/feralpacket/building_network_tech_refresh/blob/main/github_poe_usage.png)
+
+**The MDF cutsheet:**
+
+![MDF Cutsheet](https://github.com/feralpacket/building_network_tech_refresh/blob/main/github_cutsheet.png)
+
 
 ```
 ! Building tech refresh tasks
