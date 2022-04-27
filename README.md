@@ -43,6 +43,8 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
 
 ![PoE Usage](https://github.com/feralpacket/building_network_tech_refresh/blob/main/github_poe_usage.png)
 
+![PoE Usage](https://github.com/feralpacket/building_network_tech_refresh/blob/main/github_poe_usage_2.png)
+
 **The MDF cutsheet:**
 
 ![MDF Cutsheet](https://github.com/feralpacket/building_network_tech_refresh/blob/main/github_cutsheet.png)
