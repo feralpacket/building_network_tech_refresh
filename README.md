@@ -106,7 +106,7 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
       - Any special vendor equipment
 	- Conveyor systems
 	- Cranes
-	- Network connected idustrial equipment
+	- Network connected industrial equipment
 	- Large Heidelberg printers
       - The mahogany desk user suite ( do this after hours )
       - Any special offices or sections or labs
@@ -722,7 +722,7 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
       - Some equipment, printers, are only power up when they are used
       - Some equipment may be down for weeks before the office or section complains
 	- For notconnect interfaces
-	  - Using the tech refresh as an opportunity to clean up unusde interfaces
+	  - Using the tech refresh as an opportunity to clean up unused interfaces
 	  - If the interface is notconnect with the configuration was backed up previously and is 
 	    notconnect when the after cut-over configuration is created
 	  - Been leaving those interfaces configured with the IDF VLAN
