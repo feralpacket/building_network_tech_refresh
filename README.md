@@ -294,12 +294,16 @@ If you are crazy enough to use some of the tasks listed below, make the appropri
        - Virtual stackwise optics
        - Dual active detect optics
        - Links between MDFs if there are 2 or more MDFs
+       - Fiber patch cables
+       - Longer power cords, if the switch will be mounted at the top of the rack and the UPS is mounted at the bottom
     - IDF
        - Switches
        - Power supplies
        - Secondary power supplies
        - Network modules
        - Stack cables
+       - Fiber patch cables
+       - Copper patch cables
     - Other
        - Any spares need to be added?
        - Any temporary optics needed?
